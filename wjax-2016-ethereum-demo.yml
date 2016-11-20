@@ -1,0 +1,16 @@
+name: wjax-2016-ethereum-demo
+
+root: ~/Github/wjax-2016-ethereum-demo
+
+pre_window: PROMPT='> ' ; clear
+
+attach: false
+
+windows:
+  - demo:
+      layout: even-vertical
+      panes:
+        - client:
+          - #
+        - node:
+          - #
